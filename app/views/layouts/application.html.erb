@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SakeChatting</title>
+    <title>SAKE CHATTING</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+    <div class="bg" >
+      <header class="page-header wrapper">
+          <%= link_to image_tag("logo.png", class: :logo), root_path %>
+          <nav>
+              <ul class="main-nav">
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">SERVICE</a></li>
+                  <li><a href="#">CONTACT</a></li>
+              </ul>
+          </nav>    
+      </header>   
+    </div>
+        
+    
+
+  
     <%= yield %>
   </body>
 </html>
