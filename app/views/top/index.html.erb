@@ -1,0 +1,159 @@
+<main>
+  <div class="wrapper">
+    <section id="about">
+      <%= image_tag 'about.jpg', class: :about_img %>
+      <div class="about">
+        <h6>ABOUT</h6>
+        <h3>サイトについて</h3>
+        <p class="about_text">コロナ禍でなかなか外で飲む機会が無くなりました。語り合う時間が少なくなり、現実の経験よりもメディアに触れている時間が多くなりました。オンラインでしゃべり、言葉を紡いで、心を経験値をアップさせよう！</p>
+      </div>
+    </section>
+  </div>  
+  <div class="wrapper">
+    <section id="service">
+      <div class="service">
+        <h6>SERVICE</h6>
+        <h3>サービス内容</h3>
+        <p class="service_text">このサービスにはチャット機能と投稿機能があります。チャット機能では、気の合う仲間とルームを作り、語り合うことができます。投稿機能では、ドラマや漫画を見て、感銘を受けた言葉を書き留めましょう！</p>
+      </div>
+      <%= image_tag 'service.jpg', class: :service_img %>
+    </section>
+  </div>
+
+  <div class="wrapper">
+    <section id="favorite">
+      <div class="favorite_text">
+        <h6>Favorite</h6>
+        <h3>お気に入り</h3>
+      </div>
+    </section>
+
+    <section id="menu_wrapper">
+      <div class="item">
+        <%= image_tag 'menu1.jpg', class: :item_img %>
+          <h4>角ハイボール</h4>
+          <h5>Suntory Whisky</h5>
+        <div class="card_body">
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">500ml</span>
+            <span class="size">価格</span>
+            <span class="price">255円</span>
+            <span class="size">ABV</span>
+            <span class="price">7%</span>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag 'menu2.jpg', class: :item_img %>
+          <h4>コロナビール</h4>
+          <h5>Corona Extra</h5>
+        <div class="card_body">
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">355ml</span>
+            <span class="size">価格</span>
+            <span class="price">294円</span>
+            <span class="size">ABV</span>
+            <span class="price">4.5%</span>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag 'menu3.jpg', class: :item_img %>
+          <h4>グリーンボトル</h4>
+          <h5>Heineken</h5>
+        <div class="card_body">  
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">355ml</span>
+            <span class="size">価格</span>
+            <span class="price">239円</span>
+            <span class="size">ABV</span>
+            <span class="price">5%</span>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag 'menu4.jpg', class: :item_img %>
+          <h4>シラーズ・カベルネ</h4>
+          <h5>Jacob's Creek</h5>
+        <div class="card_body">
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">750ml</span>
+            <span class="size">価格</span>
+            <span class="price">1,089円</span>
+            <span class="size">ABV</span>
+            <span class="price">12.5%</span>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag 'menu5.jpg', class: :item_img %>
+          <h4>ジャック・ダニエル</h4>
+          <h5>Tennessee WHISKEY</h5>
+        <div class="card_body">
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">1750ml</span>
+            <span class="size">価格</span>
+            <span class="price">4,874円</span>
+            <span class="size">ABV</span>
+            <span class="price">40%</span>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag 'menu6.jpg', class: :item_img %>
+          <h4>ヘイワーズ5000</h4>
+          <h5>HATWARDS</h5>
+        <div class="card_body">
+          <div class="size_price">
+            <span class="size">容量</span>
+            <span class="price">330ml</span>
+            <span class="size">価格</span>
+            <span class="price">在庫なし</span>
+            <span class="size">ABV</span>
+            <span class="price">7.5%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>  
+  
+  <div class="wrapper">
+    <section id="contents">
+      <p class="contents_title">Contents</p>
+      <h3>コンテンツ</h3>
+      <div class="contents_line"></div>
+      <div class="contents_box">
+      <%= image_tag 'chat.jpg', class: :contents_img %>
+      <div class="contents_content">
+      <span class="heading">CHAT ROOM</span><br>
+      <p class="contents_text">気の合う人とお題を決めておしゃべり、漫才をしよう！</p>
+      <span class="button">詳細を見る　＞</span>
+      </div>
+      </div>
+      <div class="contents_line"></div>
+      <div class="contents_box">
+      <%= image_tag 'heart.jpg', class: :contents_img %>
+      <div class="contents_content">
+      <span class="heading">TOUCH MY HEART</span><br>
+      <p class="contents_text">本、映画、音楽を通して、心の琴線に触れた言葉を書き留めよう！</p>
+      <span class="button">詳細を見る　＞</span>
+      </div>
+      </div>
+      <div class="contents_line"></div>
+      <div class="contents_box">
+      <%= image_tag 'my_page.jpg', class: :contents_img %>
+      <div class="contents_content">
+      <span class="heading">MY PAGE</span><br>
+      <div class="contents_text">ユーザーネーム、プロフィール、自分の投稿、レベル、いいね、フォロー、フォロワーが確認できます。</div>
+      <span class="button">詳細を見る　＞</span>
+      </div>
+      </div>
+      <div class="contents_line"></div>
+    </section>
+  </div>
+</main>
